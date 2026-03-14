@@ -1,0 +1,30 @@
+[project]
+name = "marketplace-datak"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi>=0.135.1",
+]
+
+
+[tool.ruff]
+lint.extend-select = [
+    "FAST",
+    "ANN",
+    "S",
+    "BLE",
+    "B",
+    "C4",
+    "FIX",
+    "LOG",
+    "Q",
+    "ARG",
+    "PTH",
+    "N",
+]
+
+[tool.ruff.format]
+quote-style =  "double"
+indent-style = "tab"
